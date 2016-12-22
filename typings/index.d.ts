@@ -24,3 +24,6 @@ interface ITargetValue {
 interface InputEventTarget extends EventTarget {
   target: ITargetValue;
 }
+
+interface Test {
+}

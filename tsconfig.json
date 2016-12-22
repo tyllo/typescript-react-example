@@ -2,7 +2,11 @@
   "compileOnSave": false,
   "buildOnSave": false,
   "compilerOptions": {
+    "allowJs": true,
     "baseUrl": ".",
+    "paths": {
+      "*": [ "src/*" ]
+    },
     "typeRoots" : ["./typings"],
     "module": "commonjs",
     "target": "es6",

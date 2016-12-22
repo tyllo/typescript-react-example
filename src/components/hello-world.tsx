@@ -9,3 +9,5 @@ export default class HelloWorld extends React.Component<Props, {}> {
     return (<div>Hello {this.props.name}!</div>);
   }
 }
+
+let test: Test

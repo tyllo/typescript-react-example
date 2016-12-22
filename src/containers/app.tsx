@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import Input from '../components/input';
-import HelloWorld from '../components/hello-world';
+import Input from 'components/input';
+import HelloWorld from 'components/hello-world';
 
 interface IState {
   name: string;
